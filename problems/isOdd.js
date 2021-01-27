@@ -6,11 +6,15 @@
 * @returns {boolean} - True if n is odd, false if n is even, or not a number.
 
 */
+const isOdd = (n) => {
+  return n % 2 === 1; //if true return true , else false
+};
 
-
-
-const isOdd = n => {
-    return n % 2 === 1
-}
-
-module.exports = isOdd
+module.exports = isOdd;
+// //function isOdd(n) {
+//     if(n % 2 !== 1){
+//         return false
+//     }else{
+//         return true
+//     }
+// }
